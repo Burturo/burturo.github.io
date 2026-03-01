@@ -39,7 +39,7 @@ document.getElementById('contactForm').addEventListener('submit', (e) => {
     const btn = e.target.querySelector('button[type="submit"]');
     const orig = btn.innerHTML;
     btn.innerHTML = '✓ Message envoyé !';
-    btn.style.background = '#22c55e';
+    btn.style.background = '#34d399';
     setTimeout(() => { btn.innerHTML = orig; btn.style.background = ''; e.target.reset(); }, 2500);
 });
 

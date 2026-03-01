@@ -1,22 +1,22 @@
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-    --bg: #06080d;
-    --bg-2: #0c0f18;
-    --bg-card: #111520;
-    --bg-card-h: #161b2a;
-    --accent: #3b82f6;
-    --accent-2: #60a5fa;
-    --accent-glow: rgba(59,130,246,0.12);
-    --accent-glow-2: rgba(59,130,246,0.06);
-    --purple: #8b5cf6;
-    --green: #22c55e;
-    --orange: #f59e0b;
-    --text: #e4e4ed;
-    --text-2: #9295a8;
-    --text-3: #55586e;
-    --border: #1c2035;
-    --border-h: #2a2f4a;
+    --bg: #0e1525;
+    --bg-2: #141c2f;
+    --bg-card: #182035;
+    --bg-card-h: #1e2842;
+    --accent: #4a9af5;
+    --accent-2: #70b4ff;
+    --accent-glow: rgba(74,154,245,0.14);
+    --accent-glow-2: rgba(74,154,245,0.07);
+    --purple: #9d7af7;
+    --green: #34d399;
+    --orange: #fbbf24;
+    --text: #e8eaf0;
+    --text-2: #a0a8be;
+    --text-3: #636d85;
+    --border: #243048;
+    --border-h: #334468;
     --font: 'Outfit', sans-serif;
     --mono: 'JetBrains Mono', monospace;
     --radius: 14px;
@@ -34,7 +34,7 @@ nav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     height: 68px; display: flex; align-items: center; justify-content: space-between;
     padding: 0 clamp(1.5rem, 4vw, 3rem);
-    background: rgba(6,8,13,0.7); backdrop-filter: blur(24px);
+    background: rgba(14,21,37,0.75); backdrop-filter: blur(24px);
     border-bottom: 1px solid transparent; transition: border-color var(--ease);
 }
 nav.scrolled { border-bottom-color: var(--border); }
@@ -147,7 +147,7 @@ section { padding: 5.5rem clamp(1.25rem, 4vw, 3rem); max-width: 1120px; margin: 
     font-size: .92rem; font-weight: 600; cursor: pointer; border: none; transition: all var(--ease);
 }
 .btn-p { background: var(--accent); color: #fff; }
-.btn-p:hover { background: #2563eb; box-shadow: 0 8px 28px -4px rgba(59,130,246,.4); transform: translateY(-2px); }
+.btn-p:hover { background: #3a8ae5; box-shadow: 0 8px 28px -4px rgba(74,154,245,.4); transform: translateY(-2px); }
 .btn-o { background: transparent; color: var(--text); border: 1px solid var(--border); }
 .btn-o:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
 
